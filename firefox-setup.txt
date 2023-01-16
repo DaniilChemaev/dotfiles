@@ -1,0 +1,2 @@
+open about:config
+set full-screen-api.macos-native-full-screen=true
