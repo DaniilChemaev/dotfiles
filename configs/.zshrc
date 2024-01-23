@@ -2,7 +2,9 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-# Path to your oh-my-zsh installation.
+# Paths
+export PATH="/usr/local/bin:${PATH}"
+export PATH="/opt/homebrew/opt/qt@5/bin:$PATH"
 export ZSH="$HOME/.oh-my-zsh"
 
 ZSH_THEME="mgutz"
@@ -24,7 +26,8 @@ alias ohmyzsh="nvim ~/.oh-my-zsh"
 alias vim="nvim"
 alias vi="nvim"
 alias ll="ls -l"
-alias la="ls -la"
+alias la="ls -a"
+alias lla="ls -la"
 
 alias gs="git status"
 alias gp="git push"
