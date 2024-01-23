@@ -1,0 +1,27 @@
+# Formulae
+brew install aria2
+brew install cocoapods
+brew install htop
+brew install neovim
+brew install pass
+brew install speedtest-cli
+brew install tmux
+brew install tree
+brew install xcodes
+
+# Casks
+brew install alt-tab
+brew install fork
+brew install iterm2
+brew install keepingyouawake
+brew install maccy
+brew install numi
+brew install postman
+brew install raycast
+brew install swimat
+brew install vlc
+
+# Just for fun
+brew install fortune
+brew install cowsay
+brew install lolcat
