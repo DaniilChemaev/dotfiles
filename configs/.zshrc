@@ -19,8 +19,18 @@ source $ZSH/oh-my-zsh.sh
 export LANG=en_US.UTF-8
 
 # Aliases
+
+# go to parent
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+alias ......='cd ../../../../..'
+alias .......='cd ../../../../../..'
+alias ........='cd ../../../../../../..'
+
 alias zshrc="nvim ~/.zshrc"
-alias vimrc="nvim ~/.config/nvim/init.vim"
+alias vimrc="nvim ~/.vimrc"
 alias ohmyzsh="nvim ~/.oh-my-zsh"
 
 alias vim="nvim"
